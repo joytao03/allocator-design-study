@@ -26,22 +26,23 @@ The allocator simulates the behavior of `malloc` and `free` over a contiguous he
 ---
 
 ## Project Structure
+```text
 .
 ├── src/
-│ ├── implicit_allocator.c
-│ ├── explicit_allocator.c
-│ └── heap_common.c
+│   ├── implicit_allocator.c
+│   ├── explicit_allocator.c
+│   └── heap_common.c
 ├── include/
-│ └── allocator.h
+│   └── allocator.h
 ├── tests/
-│ ├── traces/
-│ └── benchmark.c
+│   ├── traces/
+│   └── benchmark.c
 ├── docs/
-│ ├── design.md
-│ └── results.md
+│   ├── design.md
+│   └── results.md
 ├── Makefile
 └── README.md
-
+```
 
 ---
 
